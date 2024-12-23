@@ -1,0 +1,1 @@
+{"uuid":"c47a4140-38eb-44ff-9727-c7787c690165","name":"com.mittarv.base.TestBase.setup","children":["8b9d233f-eb19-4075-a7d6-df2ad7420e08"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1734947312030,"stop":1734947315207}],"afters":[],"start":1734947312030,"stop":1734947315207}
