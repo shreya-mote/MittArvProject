@@ -6,7 +6,7 @@
 	<artifactId>MittarvAssignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-	<dependency>
+		<dependency>
 			<groupId>javax.activation</groupId>
 			<artifactId>activation</artifactId>
 			<version>1.1.1</version>
@@ -42,5 +42,12 @@
 			<artifactId>ashot</artifactId>
 			<version>1.5.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.29.1</version>
+		</dependency>
+
 	</dependencies>
 </project>

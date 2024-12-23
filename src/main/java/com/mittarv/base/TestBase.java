@@ -1,5 +1,6 @@
 package com.mittarv.base;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.mittarv.utils.PropertyFile;
@@ -11,10 +12,10 @@ public class TestBase {
 		Keyword.launchUrl(PropertyFile.getUrl());
 		Keyword.driver.manage().window().maximize();
 	}
-	/*@AfterMethod
+	@AfterMethod
 	public void tearDown() {
 		Keyword.driver.quit();
-	}*/
+	}
 
 
 }

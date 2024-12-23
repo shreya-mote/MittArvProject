@@ -5,6 +5,7 @@
     <classes>
       <class name="com.mittarv.testCases.MittarvTestCases">
         <methods>
+          <include name="tearDown"/>
           <include name="VerifySubscribeWithBlankEmail"/>
           <include name="setup"/>
         </methods>
